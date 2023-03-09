@@ -9,3 +9,24 @@ body {
 label, .output {
     color: white;
 }
+
+.contentWrapper {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output {
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 50px;
+    margin-top: 5rem;
+    font-size: 100px;
+}
+
+label {
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 50px;
+}
